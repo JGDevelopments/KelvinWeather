@@ -6,10 +6,10 @@ const celsius = kelvin - 273 ;
 let fahrenheit = celsius * 9/5 + 32 ;
 //This describes how we use the .floor () method to round down the number produces in the fahrenheit variable equation 
 fahrenheit = Math.floor(fahrenheit) ;
-console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
+console.log(`Temperature in Kelvin: ${kelvin}`)
 
 const kelvinn = 303; 
-const celciuss = kelvinn -273;
-let fahrenheitt = celciuss * 9/5 + 32 ; 
-fahrenheit = Math.floor(fahrenheitt)
-console.log(`The temperature is ${fahrenheitt} degrees Fahrenheit.`)
+const celciuss = kelvin -273;
+let fahrenheitt = celsius * 9/5 + 32 ; 
+fahrenheit = Math.floor(fahrenheit)
+console.log(`Temperature in Fahrenheit: ${fahrenheit}`)
